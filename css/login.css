@@ -1,0 +1,72 @@
+#login{
+    width:100%;
+    max-width:1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login__column{
+    width:400px;
+    margin:auto;
+}
+
+#customer_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#customer_login > input{
+    width:100%;
+    height:40px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #000;
+    padding:0 5px;
+    
+}
+
+#customer_login button {
+    width:100%;
+    height:45px;
+    border:0;
+}
+
+.idpassword__help{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.idpassword__help label{
+    width:50%;
+}
+
+.idpassword__help .forget{
+    width:50%;
+    text-align: right;
+}
+
+.hr__login{
+    width: 100%;
+    border-top:1px solid #aaa;
+    text-align:center;
+    margin:35px 0 12px 0;
+}
+
+.hr__login span {
+    position: relative;
+    top: -12px;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 20px;
+    color: #282828;
+}
+
+#customer_login .snsLogin{
+    /* display: block; */
+    width:100%;
+}

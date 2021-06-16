@@ -1,0 +1,127 @@
+#join{
+    width:100%;
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.join__column h1{
+    padding:30px 0;
+}
+
+.join__box{
+    width:400px;
+    margin:0 auto;
+}
+
+.customer_join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#customer_join > input{
+    width:100%;
+    height:40px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #000;
+    padding:0 5px;
+}
+
+.select__email{
+    display: flex;
+    width:100%;
+    margin-bottom: 15px;
+    height:40px;
+    align-items: center;
+
+}
+
+.select__email #customer_email{
+    width:50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.select__email .email_t{
+    display: block;
+    width:5%;
+    text-align: center;
+}
+
+.select__email .email_select{
+    width:45%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 15px;
+    height:40px;
+    align-items: center;
+}
+
+.phone > input{
+    width:23.25%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.number_send{
+    width:23.25%;
+    height:100%;
+}
+
+.number__check{
+    width:100%;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.number__check input{
+    width:76.3%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.phone_check {
+    width:23%;
+}
+
+.agreement{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    border:1px solid #333;
+    padding:15px;
+    margin-bottom: 15px;
+    
+
+}
+
+.agreement .check_all{
+    width:30%;
+    display: flex;
+    align-items: center;
+}
+
+.agreement .check{
+    width:65%;
+}
+
+.view_content{
+    font-size:12px;
+}
+
+.lunatalk_join{
+    width:100%;
+    height:45px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <main id="join">
+        <div class="join__column">
+            <h1>회원가입</h1>
+                <div class="join__box">
+                    <form id="customer_join">
+                        <input type="id" id="customer_id" placeholder="아이디">
+                        <input type="password" id="customer_pw" placeholder="비밀번호" >
+                        <input type="password" id="customer_pw_ck" placeholder="비밀번호확인" >
+                        <input type="name" id="customer_name" placeholder="이름">
+                        <!-- 이메일입력 -->
+                        <div class="select__email">
+                            <input type="email" id="customer_email" placeholder="이메일">
+                            <span class="email_t">@</span>
+                            <select class="email_select" title="이메일 서비스 선택" class="select">
+                                <option value selected>선택해 주세요</option>
+                                <option value="@gmail.com">gmail.com</option>
+                            </select>
+                        </div>
+                        <!-- 휴대폰인증 -->
+                        <div class="phone">
+                            <input type="text" maxlength="3" placeholder="휴대폰">
+                            <span class="phone_t">-</span>
+                            <input type="text" maxlength="4">
+                            <span class="phone_t">-</span>
+                            <input type="text" maxlength="4">
+                            <button class="number_send">인증번호 발송</button>
+                        </div>
+                        <!-- 인증번호 입력 -->
+                        <div class="number__check">
+                            <input type="text" placeholder="SMS로 발송된 인증번호 입력하세요">
+                            <button class="phone_check">확인</button>
+                        </div>
+
+                        <!-- 약관전체동의 -->
+                        <div class="agreement">
+                            <div class="check_all">
+                                <input type="checkbox">약관 전체동의
+                            </div>
+                            <div class="check">
+                                    <input type="checkbox">본인은 만 14세 이상입니다.
+                                    <div class="group_type1">
+                                        <input type="checkbox">이용약관에 동의합니다.
+                                        <button class="view_content">내용보기</button>
+                                    </div>
+                                    <div class="group_type2">
+                                        <input type="checkbox">개인정보 처리방침에 동의합니다.
+                                        <button class="view_content">내용보기</button>
+                                    </div>
+                            </div>
+                        </div>
+                        <button class="lunatalk_join">루나톡 회원가입</button>
+                    </form>
+                </div>
+        </div>
+    </main>
+</body>
+</html>

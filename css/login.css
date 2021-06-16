@@ -1,8 +1,13 @@
 #login{
     width:100%;
-    max-width:1200px;
+    width:1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
+}
+
+.login__column h1{
+    padding:30px 0;
 }
 
 .login__column{
